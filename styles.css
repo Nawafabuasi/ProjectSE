@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #478ac9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.u-section-1 {
+    padding: 40px 0;
+}
+
+.u-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+.u-form-group {
+    margin-bottom: 20px;
+}
+
+.u-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.u-form-group input[type="text"],
+.u-form-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.u-btn-submit {
+    background-color: #478ac9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.u-btn-submit:hover {
+    background-color: #3572a5;
+}
+
+.u-form-send-message {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.patient-records-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.patient-records-table th, 
+.patient-records-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.patient-records-table th {
+    background-color: #478ac9;
+    color: white;
+}
+
+.patient-records-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.u-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.u-footer .u-text {
+    color: #bbb;
+}
