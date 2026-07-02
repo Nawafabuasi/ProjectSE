@@ -16,6 +16,18 @@ h1 {
     padding: 40px 0;
 }
 
+.back-home-link {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: #478ac9;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.back-home-link:hover {
+    text-decoration: underline;
+}
+
 .u-form {
     background-color: #fff;
     padding: 20px;

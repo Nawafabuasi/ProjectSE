@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nursil — Patient Records, Secured on Chain</title>
+    <meta name="description" content="Nursil is a decentralized platform for storing and managing patient records securely on the blockchain.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+
+    <!-- Background layer: gradient mesh + floating 3D orbs -->
+    <div class="bg-scene" aria-hidden="true">
+        <div class="mesh"></div>
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="grid-floor"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="nav-wrap">
+        <nav class="glass navbar">
+            <a href="#top" class="brand">
+                <span class="brand-mark">N</span>
+                <span class="brand-name">nursil<span class="brand-dot">.</span>com</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how">How it works</a></li>
+                <li><a href="#security">Security</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <a href="Demo.html" class="btn btn-primary btn-small">Launch App</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <main id="top">
+        <section class="hero">
+            <div class="hero-copy" data-reveal>
+                <span class="glass pill">🔒 Blockchain-secured medical records</span>
+                <h1 class="hero-title">
+                    Patient records,
+                    <span class="gradient-text">reimagined</span>
+                    for the decentralized era
+                </h1>
+                <p class="hero-sub">
+                    Nursil gives clinics and patients a single, tamper-proof source of truth —
+                    stored on-chain, verified in real time, and accessible only to those you trust.
+                </p>
+                <div class="hero-actions">
+                    <a href="Demo.html" class="btn btn-primary">
+                        Launch Nursil App
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                    <a href="#how" class="btn btn-ghost">See how it works</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <strong>100%</strong>
+                        <span>On-chain integrity</span>
+                    </div>
+                    <div class="stat">
+                        <strong>0</strong>
+                        <span>Single points of failure</span>
+                    </div>
+                    <div class="stat">
+                        <strong>24/7</strong>
+                        <span>Record availability</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual" data-reveal>
+                <div class="tilt-wrap" id="tiltCard">
+                    <div class="glass card-3d">
+                        <div class="card-3d-layer card-header">
+                            <span class="dot-status"></span>
+                            <span>Patient Record #0412</span>
+                        </div>
+                        <div class="card-3d-layer card-row">
+                            <span>Name</span>
+                            <strong>J. Alvarez</strong>
+                        </div>
+                        <div class="card-3d-layer card-row">
+                            <span>Age</span>
+                            <strong>34</strong>
+                        </div>
+                        <div class="card-3d-layer card-row">
+                            <span>Height</span>
+                            <strong>178 cm</strong>
+                        </div>
+                        <div class="card-3d-layer card-chain">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/></svg>
+                            Verified on-chain
+                        </div>
+                    </div>
+                    <div class="glass float-chip chip-1">🩺 Live sync</div>
+                    <div class="glass float-chip chip-2">🔐 MetaMask</div>
+                    <div class="glass float-chip chip-3">⛓ Immutable</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Logos / trust strip -->
+        <section class="trust-strip" data-reveal>
+            <p>Built for modern, secure healthcare infrastructure</p>
+            <div class="trust-icons">
+                <span>Ethereum</span>
+                <span>Web3.js</span>
+                <span>MetaMask</span>
+                <span>Solidity</span>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section id="features" class="section">
+            <div class="section-head" data-reveal>
+                <span class="eyebrow">Why nursil</span>
+                <h2>Everything a modern record system should be</h2>
+                <p>Fast, transparent, and impossible to quietly tamper with.</p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="glass feature-card" data-reveal>
+                    <div class="feature-icon">⛓️</div>
+                    <h3>Decentralized storage</h3>
+                    <p>Records live on the blockchain instead of a single vulnerable server — no central point of failure, no silent data loss.</p>
+                </article>
+                <article class="glass feature-card" data-reveal>
+                    <div class="feature-icon">🔐</div>
+                    <h3>Wallet-based access</h3>
+                    <p>Connect with MetaMask to authenticate. Only authorized wallets can read or write patient data.</p>
+                </article>
+                <article class="glass feature-card" data-reveal>
+                    <div class="feature-icon">⚡</div>
+                    <h3>Real-time retrieval</h3>
+                    <p>Pull patient name, age, and vitals directly from the smart contract in milliseconds.</p>
+                </article>
+                <article class="glass feature-card" data-reveal>
+                    <div class="feature-icon">🧾</div>
+                    <h3>Immutable audit trail</h3>
+                    <p>Every write is a transaction. Every transaction is permanent, timestamped, and independently verifiable.</p>
+                </article>
+                <article class="glass feature-card" data-reveal>
+                    <div class="feature-icon">🌐</div>
+                    <h3>Cross-clinic portability</h3>
+                    <p>Records aren't locked to one hospital's database — they travel with the patient, on-chain.</p>
+                </article>
+                <article class="glass feature-card" data-reveal>
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Tamper-evident by design</h3>
+                    <p>Any attempt to alter historical data breaks the chain's integrity and is instantly detectable.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- How it works -->
+        <section id="how" class="section">
+            <div class="section-head" data-reveal>
+                <span class="eyebrow">How it works</span>
+                <h2>From wallet connect to verified record in three steps</h2>
+            </div>
+
+            <div class="steps">
+                <div class="glass step-card" data-reveal>
+                    <span class="step-num">01</span>
+                    <h3>Connect your wallet</h3>
+                    <p>Sign in with MetaMask — no passwords, no central login server to breach.</p>
+                </div>
+                <div class="glass step-card" data-reveal>
+                    <span class="step-num">02</span>
+                    <h3>Submit or fetch records</h3>
+                    <p>Enter patient details or query existing records straight from the smart contract.</p>
+                </div>
+                <div class="glass step-card" data-reveal>
+                    <span class="step-num">03</span>
+                    <h3>Confirm on-chain</h3>
+                    <p>The transaction is written to the blockchain — permanent, timestamped, and verifiable by anyone with access.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Security -->
+        <section id="security" class="section security-section">
+            <div class="glass security-panel" data-reveal>
+                <div class="security-copy">
+                    <span class="eyebrow">Security first</span>
+                    <h2>Your data doesn't live in one place waiting to be stolen</h2>
+                    <p>Traditional patient record systems are single-server targets. Nursil distributes trust across the blockchain, so there's no single database to breach, ransom, or lose.</p>
+                    <ul class="check-list">
+                        <li>Smart-contract enforced access rules</li>
+                        <li>Cryptographically signed transactions</li>
+                        <li>No admin backdoor to patient data</li>
+                    </ul>
+                </div>
+                <div class="security-visual">
+                    <div class="orbit">
+                        <div class="orbit-ring ring-1"></div>
+                        <div class="orbit-ring ring-2"></div>
+                        <div class="orbit-core">🔒</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="section">
+            <div class="section-head" data-reveal>
+                <span class="eyebrow">FAQ</span>
+                <h2>Good to know</h2>
+            </div>
+            <div class="faq-list" data-reveal>
+                <details class="glass faq-item">
+                    <summary>Do I need a crypto wallet to use Nursil?</summary>
+                    <p>Yes — Nursil authenticates through MetaMask, so a browser wallet is required to submit or view records.</p>
+                </details>
+                <details class="glass faq-item">
+                    <summary>Is patient data public on the blockchain?</summary>
+                    <p>Access is governed by the smart contract's rules; only permitted wallets can interact with sensitive record fields.</p>
+                </details>
+                <details class="glass faq-item">
+                    <summary>What network does Nursil run on?</summary>
+                    <p>Nursil is built on Ethereum-compatible infrastructure using Web3.js and Solidity smart contracts.</p>
+                </details>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section">
+            <div class="glass cta-panel" data-reveal>
+                <h2>Ready to see it in action?</h2>
+                <p>Connect your wallet and explore the patient records demo in under a minute.</p>
+                <a href="Demo.html" class="btn btn-primary btn-large">
+                    Launch Nursil App
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="glass footer-inner">
+            <div class="brand">
+                <span class="brand-mark">N</span>
+                <span class="brand-name">nursil<span class="brand-dot">.</span>com</span>
+            </div>
+            <p>&copy; 2026 Nursil. Patient records, secured on chain.</p>
+        </div>
+    </footer>
+
+    <script src="landing.js"></script>
+</body>
+</html>
